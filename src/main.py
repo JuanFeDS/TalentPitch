@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 
-# app.include_router(users.router)
+app.include_router(users.router)
 # app.include_router(resumes.router)
 # app.include_router(profiles.router)
 # app.include_router(challenges.router)
